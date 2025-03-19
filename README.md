@@ -1,7 +1,7 @@
- Project Overview
+#Project Overview
 This project is a spam detection system that classifies emails as spam or ham using machine learning techniques. The dataset consists of email messages labeled as either spam or not spam. The project leverages text preprocessing, feature extraction (TF-IDF), and various classification models to accurately predict spam emails.
 
-📌 Features
+# Features
 ✔️ Data preprocessing and text cleaning
 ✔️ Feature extraction using TF-IDF Vectorization
 ✔️ Implementation of multiple Machine Learning models:
@@ -12,12 +12,12 @@ This project is a spam detection system that classifies emails as spam or ham us
 ✔️ Model evaluation using accuracy, precision, recall, and F1-score
 ✔️ Visualization of spam vs. ham distribution
 
-🛠️ Tech Stack
-🔹 Python
-🔹 Scikit-Learn (for machine learning models)
-🔹 Pandas & NumPy (for data handling)
-🔹 Matplotlib & Seaborn (for visualization)
-🔹 Jupyter Notebook
+# Tech Stack
+## Python
+## Scikit-Learn (for machine learning models)
+##Pandas & NumPy (for data handling)
+##Matplotlib & Seaborn (for visualization)
+## Jupyter Notebook
 
 📂 Project Structure
 bash
