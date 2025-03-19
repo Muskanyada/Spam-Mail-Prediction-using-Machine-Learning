@@ -9,7 +9,6 @@ Spam emails are a major challenge in today's digital world, often carrying **phi
 ✅ **Machine Learning Models**:  
    - 🔹 Logistic Regression  
    - 🔹 Random Forest Classifier  
-   - 🔹 Support Vector Machine (SVM)  
    - 🔹 Naive Bayes (MultinomialNB)  
 ✅ **Model Evaluation**: Accuracy, Precision, Recall, and F1-score  
 ✅ **Data Visualization**: Insights into spam vs. ham email distribution  
