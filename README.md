@@ -1,55 +1,35 @@
-#Project Overview
-This project is a spam detection system that classifies emails as spam or ham using machine learning techniques. The dataset consists of email messages labeled as either spam or not spam. The project leverages text preprocessing, feature extraction (TF-IDF), and various classification models to accurately predict spam emails.
+# 📧 Spam Mail Prediction using Machine Learning  
 
-# Features
-✔️ Data preprocessing and text cleaning
-✔️ Feature extraction using TF-IDF Vectorization
-✔️ Implementation of multiple Machine Learning models:
-    🔹 Logistic Regression
-    🔹 Random Forest Classifier
-    🔹 Support Vector Machine (SVM)
-    🔹 Naive Bayes (MultinomialNB)
-✔️ Model evaluation using accuracy, precision, recall, and F1-score
-✔️ Visualization of spam vs. ham distribution
+## 🌟 Overview  
+Spam emails are a major challenge in today's digital world, often carrying **phishing links, scams, or malware**. This project aims to build an **efficient spam detection system** using machine learning techniques. By analyzing email content, the model classifies messages as **spam or ham (not spam)** with high accuracy.  
 
-# Tech Stack
-## Python
-## Scikit-Learn (for machine learning models)
-##Pandas & NumPy (for data handling)
-##Matplotlib & Seaborn (for visualization)
-## Jupyter Notebook
+## 🚀 Key Features  
+✅ **Data Preprocessing & Cleaning**: Text normalization, stopword removal, and tokenization  
+✅ **Feature Extraction**: TF-IDF (Term Frequency-Inverse Document Frequency) for text vectorization  
+✅ **Machine Learning Models**:  
+   - 🔹 Logistic Regression  
+   - 🔹 Random Forest Classifier  
+   - 🔹 Support Vector Machine (SVM)  
+   - 🔹 Naive Bayes (MultinomialNB)  
+✅ **Model Evaluation**: Accuracy, Precision, Recall, and F1-score  
+✅ **Data Visualization**: Insights into spam vs. ham email distribution  
 
-📂 Project Structure
-bash
-Copy code
+---
+
+## 🛠️ Tech Stack  
+🔹 **Programming Language**: Python  
+🔹 **Libraries & Tools**:  
+   - Scikit-Learn (ML models)  
+   - Pandas & NumPy (Data Handling)  
+   - Matplotlib & Seaborn (Data Visualization)  
+   - Jupyter Notebook (Development)  
+
+---
+
+## 📂 Project Structure  
+```bash
 📁 Spam-Mail-Prediction/
-│-- 📄 Spam_Mail_Prediction.ipynb  # Jupyter Notebook with code
+│-- 📄 Spam_Mail_Prediction.ipynb  # Jupyter Notebook with the full implementation
 │-- 📄 mail_data.csv               # Dataset (if applicable)
-│-- 📄 README.md                    # Project documentation
+│-- 📄 README.md                    # Documentation
 │-- 📄 requirements.txt             # Python dependencies
-🚀 How to Run
-1️⃣ Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/Spam-Mail-Prediction.git
-2️⃣ Install dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-3️⃣ Run the Jupyter Notebook:
-
-bash
-Copy code
-jupyter notebook
-4️⃣ Execute the code and check model performance
-
-📊 Results
-The Random Forest Classifier achieved the highest accuracy, making it the best-performing model for this dataset.
-
-📌 Next Steps
-✅ Implement deep learning models for better accuracy
-✅ Deploy the model using Flask or Streamlit
-✅ Integrate an email classification API
-
